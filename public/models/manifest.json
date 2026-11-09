@@ -1,0 +1,38 @@
+[
+  {
+    "name": "lamp",
+    "triangles": 124
+  },
+  {
+    "name": "bench",
+    "triangles": 156
+  },
+  {
+    "name": "tree",
+    "triangles": 384
+  },
+  {
+    "name": "playground",
+    "triangles": 516
+  },
+  {
+    "name": "path",
+    "triangles": 1836
+  },
+  {
+    "name": "drain",
+    "triangles": 540
+  },
+  {
+    "name": "snow",
+    "triangles": 348
+  },
+  {
+    "name": "bin",
+    "triangles": 300
+  },
+  {
+    "name": "parking",
+    "triangles": 168
+  }
+]

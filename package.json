@@ -1,0 +1,20 @@
+{
+  "name": "yard-budget-pavlodar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check src/walk.js",
+    "build:walk": "node scripts/build-walk.mjs"
+  },
+  "dependencies": {
+    "@2gis/mapgl-gltf": "2.1.2",
+    "@vercel/blob": "2.4.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "gltf-validator": "^2.0.0-dev.3.10"
+  }
+}
