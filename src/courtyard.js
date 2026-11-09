@@ -1,8 +1,11 @@
 import * as THREE from 'three';
+import {buildIrinaCourtyard} from './irina-courtyard.js';
+
+export function buildCourtyard(scene,bounds){return buildIrinaCourtyard(scene,bounds);}
 
 // A reusable residential courtyard; the selected geographic polygon stays
 // untouched in the middle, so existing object coordinates remain valid.
-export function buildCourtyard(scene,{minX,maxX,minZ,maxZ,extent}){
+export function buildGenericCourtyard(scene,{minX,maxX,minZ,maxZ,extent}){
  const group=new THREE.Group();group.name='Четыре дома и дворовые проезды';scene.add(group);
  const cube=new THREE.BoxGeometry(1,1,1),materials=new Map(),roads=[],houses=[],viewpoints=[];
  const material=color=>{if(!materials.has(color))materials.set(color,new THREE.MeshStandardMaterial({color,roughness:.95}));return materials.get(color);};

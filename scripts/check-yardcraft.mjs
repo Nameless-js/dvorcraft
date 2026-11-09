@@ -22,5 +22,6 @@ const starter={minX:-20,maxX:20,minZ:-18,maxZ:18};
 const small=buildCourtyard(new THREE.Scene(),{...starter,extent:{minX:-5,maxX:5,minZ:-4,maxZ:4}});
 const large=buildCourtyard(new THREE.Scene(),{...starter,extent:{minX:-90,maxX:90,minZ:-70,maxZ:70}});
 assert.equal(small.houses.length,4);assert.ok(large.houses.length>4);assert.deepEqual(large.houses.slice(0,4),small.houses);assert.deepEqual(large.viewpoints,small.viewpoints);assert.ok(!small.blocked(6,12));
+assert.equal(small.arches.length,2);for(const arch of small.arches)assert.equal(small.blocked(arch.x,arch.z),false);assert.equal(small.blocked(0,-35),true);
 console.log('PASS: bounded model size, far-view dots, reset during loading, stable starter courtyard.');
 
