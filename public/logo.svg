@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="112" viewBox="0 0 480 112" fill="none" role="img" aria-labelledby="title"><title id="title">YardCraft</title><g transform="translate(8 8)"><rect width="96" height="96" rx="28" fill="#123F35"/>
+<path d="M22 21h20v23H21V22a1 1 0 0 1 1-1Z" fill="#42BD79"/>
+<path d="M54 21h19a2 2 0 0 1 2 2v21H54Z" fill="#78D8A0"/>
+<path d="M21 56h21v19H23a2 2 0 0 1-2-2Z" fill="#259565"/>
+<path d="M54 56h21v17a2 2 0 0 1-2 2H54Z" fill="#42BD79"/>
+<path d="m32 35 16 17 16-17M48 52v23" fill="none" stroke="#F5FAEC" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="25" r="11" fill="#D9F275"/>
+<path d="M70 20v10m0-5 4-3" fill="none" stroke="#285B3F" stroke-width="2" stroke-linecap="round"/></g><text x="124" y="75" fill="#163F35" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-3">Yard<tspan font-weight="400">Craft</tspan></text></svg>
